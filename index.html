@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Ticket</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="m-0 p-0">
+    <header class="px-32 mb-36">
+        <!-- Nav section -->
+        <nav>
+            <div class="navbar bg-base-100 justify-between">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost font-bold text-3xl">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex gap-2 bg-[#1dd1001a] w-fit px-3 py-2 rounded-md">
+                    <p class="text-xl font-bold text-[#1dd100]">Bus</p>
+                    <img src="./images/bus-icon.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <!-- Banner section -->
+        <div class="bg-cover bg-center h-[700px] text-center pt-20"
+            style="background-image: url('./images/banner.png')">
+            <h1 class="text-7xl font-extrabold text-white">End-to-End Travel with <br>
+                <span class="text-[#1dd100]">P Paribahan</span>
+            </h1>
+            <p class="py-10 text-white opacity-65">Good side of bus travel lies not only in its practical advantages but
+                also in
+                the
+                intangible qualities
+                <br>
+                that make each journey a unique and memorable experience.
+            </p>
+            <button class="btn bg-[#1dd100] border-none font-bold px-4 py-2 rounded-lg">Buy Tickets</button>
+            <!-- stat section -->
+            <div class="flex flex-col lg:flex-row gap-5 justify-center translate-y-60">
+                <!-- 1st card -->
+                <div class="card card-side shadow-xl border-b-4 border-[#1dd100] px-10 py-2 bg-slate-100">
+                    <figure><img src="./images/people.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-4xl font-bold">500K+</h2>
+                        <p>Registered users</p>
+                    </div>
+                </div>
+                <!-- 2nd card -->
+                <div class="card card-side shadow-xl border-b-4 border-[#1dd100] px-10 py-2 bg-slate-100">
+                    <figure><img src="./images/ticket-cupon.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-4xl font-bold">1.7 lacks</h2>
+                        <p>Tickets sold</p>
+                    </div>
+                </div>
+                <!-- 3rd card -->
+                <div class="card card-side shadow-xl border-b-4 border-[#1dd100] px-10 py-2 bg-slate-100">
+                    <figure><img src="./images/stoppage.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-4xl font-bold">80K+</h2>
+                        <p>Rental partners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- offer section -->
+        <section class="mb-24">
+            <h1 class="text-6xl font-extrabold text-center my-8">Best offers for you</h1>
+            <div class="flex flex-col lg:flex-row gap-5 px-32 py-12">
+                <div class="flex flex-1 flex-col lg:flex-row gap-5 bg-[#ffbf0f] w-1/2 rounded-lg">
+                    <div class="px-20 py-16 space-y-1">
+                        <h1 class="card-title text-4xl font-extrabold">15% OFF</h1>
+                        <h2 class="card-title">on your next purchase</h2>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img src="./images/cupon-devider.png" alt="">
+                    <div class="px-20 py-16 space-y-1">
+                        <h1 class="card-title text-4xl font-extrabold">NEW15</h1>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-5 bg-[#f78c9c]  rounded-lg">
+                    <div class="px-20 py-16 space-y-1">
+                        <h1 class="card-title text-4xl font-extrabold">15% OFF</h1>
+                        <h2 class="card-title">on your next purchase</h2>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img src="./images/cupon-devider.png" alt="">
+                    <div class="px-20 py-16 space-y-1">
+                        <h1 class="card-title text-4xl font-extrabold">Couple 20</h1>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-outline btn-success block mx-auto text-[#1dd100] font-bold text-xl">See All
+                Offers</button>
+        </section>
+        <!-- ticket section -->
+        <section class="border-t-4 border-[#1dd100] rounded-3xl px-32 py-12 bg-[#f7f8f8]">
+            <div class="py-12">
+                <h1 class="text-6xl font-extrabold text-center my-8">P Paribahan</h1>
+                <p class="text-center opacity-75">We are provide very luxury and cheapest services. Additionally, its
+                    safety record, stress-reducing nature, and the ability to travel <br>
+                    overnight contribute to a positive overall experience for passengers.</p>
+                <div></div>
+            </div>
+            <!-- ticket promo -->
+            <div class="flex flex-1 flex-col lg:flex-row gap-5 bg-[#ffffff] rounded-lg">
+                <div class="w-3/5 p-10">
+                    <div class="flex justify-between">
+                        <div class="flex">
+                            <div class="mr-2">
+                                <img src="./images/bus-logo.png" alt="">
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-semibold">P Paribahan</h2>
+                                <p>Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 bg-[#1dd1001a] w-44 pl-2 rounded-md items-center">
+                            <img src="./images/seat-green.png" alt="">
+                            <p class="text-xl font-bold text-[#1dd100]">40 Seats left</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-4 m-4 divide-y divide-dashed">
+                        <div class="flex justify-between py-4">
+                            <p class="text-xl">Route</p>
+                            <p class="text-xl">Dhaka - Rangpur</p>
+                        </div>
+                        <div class="flex justify-between py-4">
+                            <p class="text-xl">Departure Time</p>
+                            <p class="text-xl">9:00 pm</p>
+                        </div>
+                        <div class="flex justify-between py-6">
+                            <div class="bg-gray-300 rounded-lg">
+                                <p class="px-5 py-3">Boarding Point - Laxmipur</p>
+                            </div>
+                            <div class="bg-gray-300 rounded-lg">
+                                <p class="px-5 py-3">Dropping Point - Bogura</p>
+                            </div>
+                            <div class="bg-gray-300 rounded-lg">
+                                <p class="px-5 py-3">Est. Time - 11 Hour</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/info-devider.png" alt="">
+                <div class="flex flex-col items-center text-center justify-center space-y-1">
+                    <img src="./images/fare.png" alt="">
+                    <h1 class="card-title text-4xl font-extrabold">550 Taka</h1>
+                    <p>Per Seat</p>
+                </div>
+            </div>
+            <!-- seat plane -->
+            <div class="flex flex-1 flex-col lg:flex-row gap-5 bg-[#ffffff] rounded-lg my-20">
+                <!-- seat plane left side -->
+                <div class="w-3/5 px-10 py-8 space-y-10">
+                    <div class="space-y-10">
+                        <div>
+                            <h1>Select Your Seat</h1>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="flex gap-2">
+                                <img src="./images/seat-gray.png" alt="">
+                                <p class="text-xl font-medium">Available</p>
+                            </div>
+                            <div class="flex gap-2">
+                                <img src="./images/seat-green-filled.png" alt="">
+                                <p class="text-xl text-[#1dd100] font-medium">Selected</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <!-- Driver seat -->
+                        <div class="bg-gray-200 px-6 py-2 rounded-lg w-40 lg:translate-x-100">
+                            <img class="mx-auto" src="./images/vector.png" alt="">
+                        </div>
+                        <!-- seat A -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center">
+                            <h3 class="text-xl font-medium">A</h3>
+                            <div class="flex flex-col lg:flex-row gap-10 text-center">
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A1</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A2</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A3</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A4</p>
+                            </div>
+                        </div>
+                        <!-- seat A -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center">
+                            <h3 class="text-xl font-medium">B</h3>
+                            <div class="flex flex-col lg:flex-row gap-10 text-center">
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B1</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B2</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B3</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B4</p>
+                            </div>
+                        </div>
+                        <!-- seat A -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">C</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C1</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C2</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C3</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C4</p>
+                            </div>
+                        </div>
+                        <!-- seat A -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">D</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D1</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D2</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D3</p>
+                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/info-devider.png" alt="">
+                <!-- seat plane right side -->
+                <div></div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
