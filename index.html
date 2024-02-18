@@ -182,12 +182,12 @@
             <!-- seat plane -->
             <div class="flex flex-1 flex-col lg:flex-row gap-5 bg-[#ffffff] rounded-lg my-20">
                 <!-- seat plane left side -->
-                <div class="w-3/5 px-10 py-8 space-y-10">
-                    <div class="space-y-10">
+                <div class="w-3/5 px-10 py-8 space-y-10 ">
+                    <div class="space-y-10 divide-y divide-dashed">
                         <div>
-                            <h1>Select Your Seat</h1>
+                            <h1 class="text-xl font-medium">Select Your Seat</h1>
                         </div>
-                        <div class="flex justify-between">
+                        <div class="flex justify-between pt-5">
                             <div class="flex gap-2">
                                 <img src="./images/seat-gray.png" alt="">
                                 <p class="text-xl font-medium">Available</p>
@@ -198,60 +198,206 @@
                             </div>
                         </div>
                     </div>
+                    <!-- seat design  -->
                     <div class="space-y-4">
                         <!-- Driver seat -->
-                        <div class="bg-gray-200 px-6 py-2 rounded-lg w-40 lg:translate-x-100">
+                        <div class="bg-gray-200 px-6 py-4 rounded-lg w-40 flex justify-end">
                             <img class="mx-auto" src="./images/vector.png" alt="">
                         </div>
                         <!-- seat A -->
                         <div class="flex flex-col lg:flex-row gap-20 items-center">
                             <h3 class="text-xl font-medium">A</h3>
                             <div class="flex flex-col lg:flex-row gap-10 text-center">
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A1</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A2</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A3</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">A4</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">A1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">A2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">A3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">A4</p>
                             </div>
                         </div>
-                        <!-- seat A -->
+                        <!-- seat B -->
                         <div class="flex flex-col lg:flex-row gap-20 items-center">
                             <h3 class="text-xl font-medium">B</h3>
                             <div class="flex flex-col lg:flex-row gap-10 text-center">
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B1</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B2</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B3</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">B4</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">B1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">B2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">B3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">B4</p>
                             </div>
                         </div>
-                        <!-- seat A -->
+                        <!-- seat C -->
                         <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
                             <h3 class="text-xl font-medium">C</h3>
                             <div class="flex flex-col lg:flex-row gap-10">
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C1</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C2</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C3</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">C4</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">C1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">C2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">C3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">C4</p>
                             </div>
                         </div>
-                        <!-- seat A -->
+                        <!-- seat D -->
                         <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
                             <h3 class="text-xl font-medium">D</h3>
                             <div class="flex flex-col lg:flex-row gap-10">
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D1</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D2</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D3</p>
-                                <p class="bg-gray-200 px-6 py-2 rounded-lg w-40">D4</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">D1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">D2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">D3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">D4</p>
+                            </div>
+                        </div>
+                        <!-- seat E -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">E</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">E1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">E2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">E3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">E4</p>
+                            </div>
+                        </div>
+                        <!-- seat F -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">F</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">F1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">F2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">F3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">F4</p>
+                            </div>
+                        </div>
+                        <!-- seat G -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">G</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">G1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">G2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">G3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">G4</p>
+                            </div>
+                        </div>
+                        <!-- seat H -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">H</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">H1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">H2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">H3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">H4</p>
+                            </div>
+                        </div>
+                        <!-- seat I -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">I</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">I1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">I2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">I3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">I4</p>
+                            </div>
+                        </div>
+                        <!-- seat J -->
+                        <div class="flex flex-col lg:flex-row gap-20 items-center text-center">
+                            <h3 class="text-xl font-medium">J</h3>
+                            <div class="flex flex-col lg:flex-row gap-10">
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">J1</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">J2</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">J3</p>
+                                <p class="bg-gray-200 px-6 py-3 rounded-lg w-40">J4</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <img src="./images/info-devider.png" alt="">
                 <!-- seat plane right side -->
-                <div></div>
+                <div class="space-y-10  px-8 w-full mb-10">
+                    <div>
+                        <h1 class="text-xl font-medium pt-8">Select Your Seat</h1>
+                    </div>
+                    <hr>
+                    <div class="bg-gray-200 rounded-lg">
+                        <div class="flex flex-1 justify-around py-2">
+                            <div class="flex mr-2">
+                                <p class="text-xl font-medium">Seat</p>
+                                <p class="text-[#1dd100] font-medium">0</p>
+                            </div>
+                            <p class="text-xl font-medium">Class</p>
+                            <p class="text-xl font-medium">Price</p>
+                        </div>
+                        <hr>
+                        <div>
+
+                        </div>
+                        <hr>
+                        <div class="flex flex-1 justify-between px-12 py-2">
+                            <p class="text-xl font-medium">Total Price</p>
+                            <p class="text-xl font-medium">0</p>
+                        </div>
+                        <!-- coupon section  -->
+                        <div class="flex justify-between bg-[#ffffff] rounded-lg m-10 pl-5">
+                            <input type="text" placeholder="Have any coupon?">
+                            <button class="btn bg-[#1dd100] text-white text-xl font-medium">Apply</button>
+                        </div>
+                        <div class="flex flex-1 justify-between px-12 py-2">
+                            <p class="text-xl font-medium">Grand Total</p>
+                            <p class="text-xl font-medium">0</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-xl font-medium mb-2">Passenger Name*</p>
+                        <input class="px-8 py-5 border-2 border-gray-200 rounded-xl w-full" type="text" name="" id=""
+                            placeholder="Enter your name">
+                    </div>
+                    <div>
+                        <p class="text-xl font-medium mb-2">Phone Number*</p>
+                        <input class="px-8 py-5 border-2 border-gray-200 rounded-xl w-full" type="text" name="" id=""
+                            placeholder="Enter your phone number">
+                    </div>
+                    <div>
+                        <p class="text-xl font-medium mb-2">Email ID</p>
+                        <input class="px-8 py-5 border-2 border-gray-200 rounded-xl w-full" type="text" name="" id=""
+                            placeholder="Enter your email id">
+                    </div>
+                    <div class="text-center">
+                        <button class="btn bg-[#1dd100] text-white text-xl font-medium w-full">Next</button>
+                    </div>
+                    <div class="flex justify-around">
+                        <p>Terms and Conditions</p>
+                        <p>Cancellation Policy</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <!-- footer section  -->
+    <footer class="bg-black text-white p-16">
+        <div class="flex flex-col lg:flex-row justify-between pb-10 px-20">
+            <div class="space-y-5">
+                <h3 class="text-5xl font-bold">P-Ticket</h3>
+                <p class="opacity-70">P-Ticket is a digital platform to make your <br>
+                    daily commuting better.</p>
+            </div>
+            <div>
+                <h2 class="text-2xl font-medium">Download our app</h2>
+                <div class="flex gap-4 border-2 border-gray-200 p-2 rounded-lg mt-3">
+                    <img src="./images/playstore.png" alt="">
+                    <div>
+                        <p>GET IT ON</p>
+                        <h4 class="text-3xl font-medium">Google Play</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="flex flex-col lg:flex-row justify-around py-10">
+            <div>
+                <p class="opacity-70">@all rights reserved, P-Ticket services limited.2024</p>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-10">
+                <p>Terms & condition</p>
+                <p>Return & refund policy</p>
+                <p>Privacy policy</p>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
