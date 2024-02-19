@@ -2,6 +2,8 @@ const allTicket = document.getElementsByClassName("seat");
 let count = 0;
 for (const ticket of allTicket) {
   ticket.addEventListener("click", function (event) {
+    const applyBtn = document.getElementById("apply-btn");
+    applyBtn.classList.remove("btn-disabled");
     // seat number disable
     const seatCount = parseInt(document.getElementById("cart-count").innerText);
     if (seatCount >= 4) {
